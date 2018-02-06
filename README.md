@@ -6,7 +6,7 @@ Usage (in docker-compose.yml):
 
 ```
 fakes3:
-  image: olalond3/fakes3
+  image: countingup/fakes3
   ports:
     - "4567:4567"
   volumes:
