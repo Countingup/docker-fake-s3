@@ -1,9 +1,9 @@
-FROM ruby:2.3.0-alpine
+FROM ruby:2.3-alpine
 
 RUN mkdir /fakes3
 RUN mkdir /fakes3/data
 WORKDIR /fakes3
-RUN gem install fakes3
+RUN gem install fakes3 -v '~> 1.2.0'
 
 ENV PORT 4567
 
